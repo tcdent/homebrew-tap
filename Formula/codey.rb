@@ -1,7 +1,7 @@
 class Codey < Formula
   desc "AI coding assistant for the terminal"
   homepage "https://github.com/tcdent/codey"
-  version "0.1.0"
+  version "0.1.0-rc.1"
   license "MIT"
 
   on_macos do
