@@ -1,13 +1,13 @@
 class Codey < Formula
   desc "AI coding assistant for the terminal"
   homepage "https://github.com/tcdent/codey"
-  version "0.1.0-rc.2"
+  version "0.1.0-rc.3"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/tcdent/codey/releases/download/v#{version}/codey-darwin-arm64.tar.gz"
-      sha256 "f55b87c2e4d8e70f8b6d6e89d6246d87ac2a8c094b04d7a15c3a3338ef68947f"
+      sha256 "94c1d1ecd0760b4c77fe1c95cbb1db490a464b041b341265d5da570f212e7eb5"
 
       def install
         bin.install "codey-darwin-arm64" => "codey"
@@ -18,7 +18,7 @@ class Codey < Formula
   on_linux do
     on_intel do
       url "https://github.com/tcdent/codey/releases/download/v#{version}/codey-linux-x86_64.tar.gz"
-      sha256 "0e5ec4f24561f91256f8dfbb9dcfaa5d2b898cf5841683d3df86b430c0076187"
+      sha256 "10221647e426783abba26b719cae20b6d6a403aeaf09ac518bd45c811c64e13f"
 
       def install
         bin.install "codey-linux-x86_64" => "codey"
@@ -26,7 +26,7 @@ class Codey < Formula
     end
     on_arm do
       url "https://github.com/tcdent/codey/releases/download/v#{version}/codey-linux-arm64.tar.gz"
-      sha256 "3af907b69d5d6497a62add817920127bd6adeb29c611c49f2b5febd36ee32335"
+      sha256 "860b3b91610b3cde70eade5b299dbd685f501393a6034da80e78845d4987840e"
 
       def install
         bin.install "codey-linux-arm64" => "codey"
